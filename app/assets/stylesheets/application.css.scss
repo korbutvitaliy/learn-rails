@@ -11,3 +11,9 @@
  *= require_self
  *= require_tree .
  */
+//= depend_on_asset "Stephanie.jpg"
+
+.logo {
+
+  background-image: image-url('Stephanie.jpg')
+}
