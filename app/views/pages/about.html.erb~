@@ -1,4 +1,4 @@
-<% content_for :title do %>About<% end %>
+<% content_for :title do %><% end %>
 <h3>About Foobar Kadigan</h3>
 <p>He was born in Waikikamukau, New Zealand. He left New Zealand for England, excelled
 at the University of Mopery, and served in the Royal Loamshire Regiment. While in
@@ -9,3 +9,9 @@ Middlehampton where he raises Griadium frieda.</p>
 <p>His favorite quotation is:</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua.</p>
+<% content_for :title do %>About<% end %>
+<h3>:)</h3>
+<div style="logo"><%= image_tag("http://mirgadaniy.ru/images/KseniaAuthor2/gfdng643.jpg", :alt => "Beautiful Flowers") %> </div>
+
+<p></p>
+

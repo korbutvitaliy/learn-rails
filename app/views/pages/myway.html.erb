@@ -1,0 +1,35 @@
+<% content_for :title do %>My Philosophy<% end %>
+
+<% today = Date.today %>
+<% birthdate = Date.new(1992, 9, 8) %>
+<% age = today.year - birthdate.year %>
+<% if today.month<birthdate.month || (today.month == birthdate.month && today.day < birthdate.day) %>
+ <% age-=1 %>
+ <% end %>
+
+<p> One day I can share here my philosophy of life you can get touch on and benefit from. Essays, books, resources and projects.
+
+<h3>My way</h3>
+<p>I was born in Minsk, Belarus in 1992. I'm <%= age %> y.o. now.</p>
+
+<p>From early age I mastered ethics and self-analysis, read a lot of scientific stuff. In high school I studied a lot of competitive math, winning some national competitions at the same time. </p>
+
+<p>From 2010 to 2015 I studied economics and game theory in university, which looks like general wisdom for me after reading some books. This time was considered by me as a waste, according to my ambitions to change the world, so I doubled down on reading and exploring the world. As my world view and goals matured while spending year after year reading, I've got some details on my big plans as well as moved to Germany at the beginning of 2014.</p>
+
+<p>I'm a bit reluctant to share my goals publicly, but I believe that it will lead to a better world long-term.
+</p>
+
+
+<p>My ultimate goal is to be a great father, and I divide it in components.</p> 
+
+<p>To be a better father I want to change the world for the better along the way, because it will affect my family and my environment more than anything else, given the premise of committing good enough chunk of attention to family itself. </p> 
+
+<p>That's why a big positive impact on the world is important to me. To make impact big, I plan on doing things that are very underserved and could be done productively in my situation. The things that can't be done by others. It means they require a lot of preparation/concrete skills, self-confidence, valued by me more than by others, because of hunger I have for these things in form of vision. </p> 
+
+<p>I chose data analytics, which really means that I'll find the best ways of doing concrete things, achieving set goals and sharing it with others, or doing it for others, in the form of implemented algorithms. </p> 
+
+<p>To be as productive as possible in these areas I plan to move to Silicon Valley, California in order to get the benefits of this clustered world. </p> 
+
+<p>And the most important point: I believe that one pretty girl will give birth to our awesome children.</p>
+
+<h6> Thanks to many-many people for supporting me along the way. </h6>
